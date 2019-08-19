@@ -13,3 +13,4 @@ until [[ "$CURL_OUTPUT" = "200" ]]; do
     attempt_counter=$(($attempt_counter+1))
     sleep 5
 done
+echo "$CURL_OUTPUT"
